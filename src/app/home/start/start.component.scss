@@ -1,0 +1,52 @@
+@import '_variables';
+
+mat-card-content {
+  width: 1000px;
+  margin: 0 auto;
+
+  form {
+    display: inline-flex;
+    width: 1000px;
+
+    & > mat-form-field {
+      padding-right: 18px;
+    }
+
+    & > * {
+      flex: 1;
+    }
+
+    button {
+      height: 40px;
+    }
+  }
+
+  .table {
+    padding: 5px;
+    .filter {
+      width: 100%;
+      display: inline-flex;
+      justify-content: flex-end;
+    }
+  }
+
+  mat-row {
+    background-color: #ffffff;
+    &:hover {
+      background-color: $primary-hover-color;
+    }
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .link {
+    color: $primary-color;
+    text-decoration: none;
+    &:hover {
+      color: $accent-color;
+      text-decoration: underline;
+    }
+  }
+}

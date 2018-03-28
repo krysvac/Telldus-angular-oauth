@@ -1,0 +1,36 @@
+@import './variables';
+@import './mixins';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~ng-pick-datetime/assets/style/picker.min.css";
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.flex {
+  @include flex;
+}
+
+.full-width {
+  width: 100%
+}
+
+.half-width {
+  width: 50%;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.loading {
+  &.center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

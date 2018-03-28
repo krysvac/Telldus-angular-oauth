@@ -1,0 +1,29 @@
+@import '_variables';
+
+.nav-icon {
+  padding: 0 14px;
+}
+
+mat-toolbar {
+  color: $primary-color;
+}
+
+.nav-spacer {
+  flex: 1 1 auto;
+}
+
+mat-card {
+  margin: 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: $active-color;
+  mat-icon {
+    text-decoration: underline;
+  }
+}

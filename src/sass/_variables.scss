@@ -1,0 +1,18 @@
+$header-color: green;
+$primary-color: #004a82;
+$accent-color: #4287b7;
+$grey-color: #ebebeb;
+$primary-red: #F44336;
+$primary-green: #4CAF50;
+$primary-warning: #d32f2f;
+$active-color: rgba(226, 242, 253, 0.6);
+$primary-hover-color: rgba(0, 0, 0, .12);
+
+//Animation variables for hovering
+$gutter: 15px;
+$animate: all 0.2s ease-in-out;
+$rounded: 4px;
+$col1: $accent-color;
+$col2: $accent-color;
+$col3: $grey-color;
+$col4: desaturate($accent-color, 30%);
