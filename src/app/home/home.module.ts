@@ -22,7 +22,7 @@ import { StartComponent } from './start/start.component';
     HttpClientModule,
     OwlDateTimeModule,
     OwlNativeDateTimeModule,
-    MatDialogModule
+    MatDialogModule,
   ],
   declarations: [
     HomeIndexComponent,

@@ -13,7 +13,6 @@ import { AppComponent } from './app.component';
 
 import { Ng2Webstorage } from 'ngx-webstorage';
 
-
 @NgModule({
   declarations: [
     AppComponent

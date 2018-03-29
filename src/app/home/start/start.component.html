@@ -1,6 +1,6 @@
 <mat-card-title>Start</mat-card-title>
 
 <mat-card-content>
- It works
+  <button mat-raised-button color="primary" (click)="getAuthLink()">Get link</button>
+  <h5 *ngIf="authLink !== ''">Your link is: <a href="{{authLink}}">{{authLink}}</a></h5>
 </mat-card-content>
-
